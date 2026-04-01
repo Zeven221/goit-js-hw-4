@@ -4,7 +4,7 @@ function isEnoughCapacity(products, containerSize) {
   for(const product of array){
     totalItem += product
   }
-  return Boolean(totalItem <= containerSize)
+  return totalItem <= containerSize
 
   
 
